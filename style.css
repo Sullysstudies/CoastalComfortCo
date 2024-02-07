@@ -1,0 +1,90 @@
+body{
+  margin:6em;
+  background-color:Cornsilk; 
+  color: DarkCyan;
+  font-family: "Crimson Text", serif;
+}
+
+h1{
+  text-align:center;
+  animation:CoastalComfort 10s
+   infinite;
+}
+
+@keyframes CoastalComfort{
+  0%{color:#80A4CC;}
+  20%{color:#326399;}
+  40%{color:#FF987A;}
+  60%{color:#BAFFFF;}
+  80%{color:#CC8680;}
+  100%{color:#80A4CC;}
+  
+}
+
+
+
+img{
+  width: 300px;
+}
+
+/*Umbrella*/
+.Umbrella {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/26f1.png) 36 36, auto;
+}
+
+
+/*Shell*/
+.Shell {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f41a.png) 36 36, auto;
+}
+
+/*Sun*/
+.Sun {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f31e.png) 36 36, auto;
+}
+
+section{
+  display:flex;
+  padding: 1rem;
+}
+
+figure{
+  display:flex;
+  align-self: flex-start;
+  position:sticky;
+  top: 1rem;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+button{
+  background-color: DarkCyan;
+   color: White; 
+   font-family:"Crimson Text", serif;
+  padding; 10px
+}
